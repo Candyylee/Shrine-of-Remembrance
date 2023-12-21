@@ -57,9 +57,8 @@
     <div class="pageTwo">
       <div>
         <div class="section-highlights" id="section-highlights">
-          <h3 class="subheading-highlights">Hightlights</h3>
-          <div class="highlights-box">
           <div>
+            <h3 class="subheading-highlights">Hightlights</h3>
             <p>
             Surrounding the Sanctuary is the Ambulatory, which contains 42 bronze
             caskets. The caskets house the 40 Books of Remembrance (38 Australian
@@ -67,61 +66,76 @@
             Victorians who served in other than Australian Forces); the Monarch's
             Book of Remembrance and a VIP book...
             </p>
-            <a id="link-to-sanctuary" href="/">The Sanctuary</a> <br />
-            <a id="link-to-galleries" href="/">The Galleries of Remembrance</a><br />
-            <a id="link-to-crypt" href="/">The Crypt</a>
-            
+            <ul class ="highlights-list">
+              <li>
+                <a id="link-to-sanctuary" href="/">The Sanctuary</a>
+              </li>
+              <li>
+                <a id="link-to-galleries" href="/">The Galleries of Remembrance</a>
+              </li>
+              <li>
+                <a id="link-to-crypt" href="/">The Crypt</a>
+              </li>
+            </ul>
           </div>
           <div>
-            <img class = "highlights-image" src="images/remembrance-day.jpg" alt="remembrance day photo at Shine">
+            <img class ="highlights-image" src="images/remembrance-day.jpg" alt="remembrance day photo at Shine">
           </div>
         </div>
       </div>
 
-      <div>
-        <h3>Shrine Stories</h3>
-        <p>
+      <div class="section-stories">
+        <div>
+          <img class="story-image" src="images/story-section.jpg" alt="/">
+        </div>
+        <div>
+         <h3>Shrine Stories</h3>
+          <p>
           Browse our podcasts, videos and stories to remember, value and
           commemorate service and sacrifice:
-        </p>
-        <ul>
-          <li>
-            <a href="https://www.shrine.org.au/shrine-stories-dyson"
-              >Shrine Stories: The Dyson</a
-            >
-          </li>
-          <li>
-            <a
-              href="https://www.shrine.org.au/hmas-sydney-most-famous-ship-fleet"
-              >HMAS Sydney: The most famous ship in the fleet</a
-            >
-          </li>
-          <li>
-            <a href="https://www.shrine.org.au/remembering-beaufort-bomber-0"
-              >Remembering the Beaufort Bomber</a
-            >
-          </li>
-        </ul>
+          </p>
+          <ul class="story-list">
+            <li>
+              <a href="https://www.shrine.org.au/shrine-stories-dyson"
+                >Shrine Stories: The Dyson</a
+              >
+            </li>
+            <li>
+              <a
+                href="https://www.shrine.org.au/hmas-sydney-most-famous-ship-fleet"
+                >HMAS Sydney: The most famous ship in the fleet</a
+              >
+            </li>
+            <li>
+              <a href="https://www.shrine.org.au/remembering-beaufort-bomber-0"
+                >Remembering the Beaufort Bomber</a
+              >
+            </li>
+          </ul>
+        </div>
       </div>
 
-      <div>
-        <h3>Become a Shrine Friend</h3>
-        <p>
-          Join a community committed to honouring the service and sacrifice of
-          hundreds of thousands of Victorians. Together, we remember those who
-          gave their all for all of us.
-        </p>
-        <form class="membership">
-          <div>
-            <label for="">Tell us your firstname & lastname</label> <br />
-            <input type="text" placeholder="e.g. Chris Hemsworth" />
-          </div>
-          <label for="Your email"></label>
-          <input type="email" placeholder="ernie@email.com" />
-          <div>
-            <input type="submit" value="Sign up" />
-          </div>
-        </form>
+      <div class="section-member">
+        <div>
+          <h3>Become a Shrine Friend</h3>
+          <p>
+            Join a community committed to honouring the service and sacrifice of
+            hundreds of thousands of Victorians. Together, we remember those who
+            gave their all for all of us.
+          </p>
+        </div>
+        <div>
+          <form class="membership">
+            <label for="name">First name & last name:</label> <br />
+            <input type="text" class="member-name" id="member-name" placeholder="e.g. Chris Hemsworth" />
+            <br />
+            <label for="email">Email:</label> <br />
+            <input type="email" class="member-email" id="member-email" placeholder="e.g. ernie@email.com" /> 
+            <br />
+            <input type="submit" class="sign-up-button" id="sign-up-button" value="Sign up" />
+         
+          </form>
+        </div> 
       </div>
 
       <div class="pageThree">

@@ -47,16 +47,70 @@ body a {
   width: 300px;
   border-radius: 5px;
 }
-.highlights-box {
-  padding: 10px 0px;
-  font-size: 15px;
-  display: flex;
-  justify-content: space-between;
-}
-.subheading-highlights {
-}
 .section-highlights {
-  padding: 25px;
+  padding: 15px 40px;
   border: 1px solid white;
   border-radius: 25px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.section-highlights p {
+  max-width: 80%;
+}
+.section-stories {
+  margin-top: 18px;
+  padding: 15px 40px;
+  border: 1px solid white;
+  border-radius: 25px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.story-image {
+  width: 300px;
+  border-radius: 5px;
+}
+.highlights-list {
+  list-style: none;
+  padding-left: 0;
+  font-size: 15px;
+}
+.story-list {
+  list-style: none;
+  padding-left: 0;
+  font-size: 15px;
+}
+.section-member {
+  margin-top: 18px;
+  padding: 15px 40px;
+  border: 1px solid white;
+  border-radius: 25px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.section-member p {
+  max-width: 80%;
+}
+.section-member label {
+  font-size: 15px;
+}
+.member-name {
+  width: 400px;
+  font-size: 13px;
+  padding: 8px;
+  border-radius: 8px;
+}
+.member-email {
+  width: 400px;
+  font-size: 13px;
+  padding: 8px;
+  border-radius: 8px;
+}
+.sign-up-button {
+  padding: 5px 25px;
+  border-radius: 10px;
+  font-size: 13px;
+  cursor: pointer;
 }
