@@ -3,9 +3,10 @@ body {
   color: white;
   font-family: sans-serif;
 }
-body a {
+a {
   color: white;
 }
+
 .front-page-image {
   display: block;
   width: 1400px;
