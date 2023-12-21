@@ -68,6 +68,9 @@ body a {
   justify-content: space-between;
   align-items: center;
 }
+.section-stories img {
+  margin-right: 100px;
+}
 .story-image {
   width: 300px;
   border-radius: 5px;
