@@ -1,0 +1,35 @@
+.front-page-image {
+  display: block;
+  width: 1400px;
+  height: 400px;
+  object-fit: cover;
+  object-position: 0% 100%;
+}
+.header-button {
+  font-size: 15px;
+  padding: 10px 30px;
+  border-radius: 10px;
+  border: 1px solid gray;
+  display: inline;
+  margin-right: 40px;
+  cursor: pointer;
+}
+.header-button-box {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+.header-button-box .header {
+  margin: 0px;
+  margin-right: 100px;
+  font-size: 70px;
+}
+.pageOne-subheading {
+  margin: 0px;
+}
+.pageOne-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 17px;
+}
