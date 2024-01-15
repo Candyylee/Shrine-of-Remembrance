@@ -1,3 +1,10 @@
+body {
+  background: black;
+  color: white;
+}
+body a {
+  color: white;
+}
 .front-page-image {
   display: block;
   width: 1400px;
