@@ -14,27 +14,29 @@ body a {
 }
 .header-button {
   font-size: 15px;
-  padding: 10px 30px;
+  padding: 10px 35px;
   border-radius: 10px;
   border: 1px solid gray;
   display: inline;
-  margin-right: 40px;
+  margin-right: 10px;
+
   cursor: pointer;
 }
 .header-button-box {
   display: flex;
-  justify-content: flex-start;
+  justify-content: space-between;
   align-items: center;
+  padding: 30px 30px 0px 30px;
 }
 .header-button-box .header {
-  margin: 0px;
-  margin-right: 100px;
   font-size: 70px;
+  margin: 0;
 }
 .pageOne-subheading {
   margin: 0px;
 }
 .pageOne-content {
+  padding: 10px 35px;
   display: flex;
   justify-content: space-between;
   align-items: center;
