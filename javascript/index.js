@@ -15,3 +15,9 @@ function toTours(event) {
 }
 let handleGuidedTours = document.querySelector("#guidedTours");
 handleGuidedTours.addEventListener("click", toTours);
+
+let handleTourButton = document.querySelector("#tour-button");
+handleTourButton.addEventListener("click", toTours);
+
+let handleExploreButton = document.querySelector("#explore-button");
+handleExploreButton.addEventListener("click", toHighlights);
