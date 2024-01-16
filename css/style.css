@@ -20,7 +20,6 @@ body a {
   border: 1px solid gray;
   display: inline;
   margin-right: 10px;
-
   cursor: pointer;
 }
 .header-button-box {
@@ -35,6 +34,7 @@ body a {
 }
 .pageOne-subheading {
   margin: 0px;
+  padding-left: 30px;
 }
 .pageOne-content {
   padding: 10px 35px;
@@ -42,4 +42,21 @@ body a {
   justify-content: space-between;
   align-items: center;
   font-size: 17px;
+}
+.highlights-image {
+  width: 300px;
+  border-radius: 5px;
+}
+.highlights-box {
+  padding: 10px 0px;
+  font-size: 15px;
+  display: flex;
+  justify-content: space-between;
+}
+.subheading-highlights {
+}
+.section-highlights {
+  padding: 25px;
+  border: 1px solid white;
+  border-radius: 25px;
 }
