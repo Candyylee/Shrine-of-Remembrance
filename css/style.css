@@ -6,9 +6,7 @@ body {
 a {
   color: white;
 }
-
 .front-page-image {
-  display: block;
   width: 1400px;
   height: 400px;
   object-fit: cover;
@@ -118,4 +116,11 @@ a {
   border-radius: 10px;
   font-size: 13px;
   cursor: pointer;
+}
+.santuary-image {
+  width: 900px;
+  height: 900px;
+  object-fit: cover;
+  object-position: 0% 100%;
+  margin: 30px 30px;
 }
